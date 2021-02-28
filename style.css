@@ -72,6 +72,7 @@ body{
 
 .secao1{
 	background-color: #1E252C;
+	display: flex;
 	height: 510px;
 }
 
@@ -94,4 +95,12 @@ body{
  	color: white;
 	font: 10px 'Montserrat';
 	padding-bottom: 40px;
+}
+
+.imagem{
+	margin: auto;
+}
+
+.img-secao1{
+	height: 280px;
 }
