@@ -70,7 +70,7 @@ body{
     padding-right: 55px; 
 }
 
-.secao1{
+.iniciativa{
 	background-color: #1E252C;
 	display: flex;
 	height: 510px;
@@ -103,4 +103,58 @@ body{
 
 .img-secao1{
 	height: 280px;
+}
+
+.objetivos{
+	background-color: white;
+	height: 600px;
+}
+
+.titulo-2{
+ 	color: #1E252C;
+ 	text-align: center;
+	font: 24px 'Montserrat';
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+.subtitulo-2{
+ 	color: #898989;
+ 	text-align: center;
+	font: 14px 'Montserrat';
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+}
+
+.parceiros{
+	display: flex;
+	height: 600px;
+	background-image: linear-gradient(to bottom, #1E252C 30%, white 25%, white 70%, white 70%, white 80%, white 80%, white);
+}
+
+.caixa-interna{
+	width: 60%;
+	height: 70%;
+	margin: auto;
+	display: flex;
+	background-color: white;
+    border-left: solid 1px;
+	border-left-color: #d9d8d4;
+	-webkit-box-shadow: 5px 4px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    5px 4px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         5px 4px 5px rgba(50, 50, 50, 0.77);
+}
+
+.contatos{
+	height: 600px;
+	background-color: white;
+}
+
+footer{
+	height: 250px;
+	background-color: #1E252C;
 }
