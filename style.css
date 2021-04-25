@@ -107,7 +107,7 @@ body{
 
 .objetivos{
 	background-color: white;
-	height: 600px;
+	height: 650px;
 }
 
 .titulo-2{
@@ -130,17 +130,62 @@ body{
 	padding-bottom: 40px;
 }
 
+
+.importancias{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.importancia{
+	width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img_importancia{
+}
+
+.titulo-3{
+ 	color: #1E252C;
+ 	text-align: center;
+	font: 18px 'Montserrat';
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.subtitulo-3{
+ 	color: #898989;
+ 	text-align: center;
+	font: 14px 'Montserrat';
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 40px;
+}
+
 .parceiros{
 	display: flex;
 	height: 600px;
 	background-image: linear-gradient(to bottom, #1E252C 30%, white 25%, white 70%, white 70%, white 80%, white 80%, white);
 }
 
+.grid{
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 50px 50px 50px;
+  grid-gap: 100px;
+}
+
 .caixa-interna{
 	width: 60%;
 	height: 70%;
 	margin: auto;
-	display: flex;
 	background-color: white;
     border-left: solid 1px;
 	border-left-color: #d9d8d4;
